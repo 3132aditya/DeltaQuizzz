@@ -1,0 +1,25 @@
+<%-include('./nav.ejs')-%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/post.css">
+    <title>Document</title>
+</head>
+<body>
+    <% if(status!=''){%>
+    <p><%= status%></p>
+    <%}%>
+    <div class="main">
+        <form action="/post" method="post" class="form">
+        <p>Post</p>
+        <input type="text" name="username" placeholder="Username" class="input"> <br><br>
+        <input type="text" name="question" placeholder="Write Your Question Here" class="input"><br><br>
+        <input type="text" name="answer" placeholder="Write Answer" class="input"><br><br>
+        <button class="btn">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

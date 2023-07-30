@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/signin.css">
+    <title>Document</title>
+</head>
+<body>
+        
+
+    <div class="main">
+    <p>Sign-In</p>
+
+    <form action="/signin" method="post" class="form">
+
+        <input type="text" name="username" placeholder="Userame" class="input"><br><br>
+        <input type="password" name="password" placeholder="Password" class="input"><br><br>
+        <button class="btn">SignIn</button>
+
+    </form>
+    <br><br>
+    <div class="status">
+        <% if(status!=''){%>
+            <p><%= status%></p>
+            <%}%>
+            
+    </div>
+    
+
+    <a href='./registration' >New!! Make Account Here</a>
+</div>
+
+</body>
+</html>

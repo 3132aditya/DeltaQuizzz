@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background: rgb(42, 44, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.main p{
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.main a{
+    color: aquamarine;
+    font-size: 15px;
+    background: rgb(11, 211, 61);
+    border-radius: 5px;
+    padding: 5px 10px ;
+}

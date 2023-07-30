@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: rgb(42, 44, 35);
+}
+
+.head{
+    padding: 50px 100px;
+    text-align: center;
+   
+}
+
+.head h1{
+    font-size: 35px;
+    color:rgb(162, 235, 79)
+}
+
+.head p{
+    font-size: 20px;
+    padding: 20px;
+    color:rgb(193, 243, 135);
+}
+
+.link ul{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    
+   
+   
+}
+
+ul .l1{
+    background: rgb(112, 230, 1);
+    padding: 10px 20px;
+    border:3px black solid;
+    border-radius: 10px;
+}
+
+
+ul .l2{
+    background: rgb(112, 230, 1);
+    padding: 10px 20px;
+    border:3px black solid;
+    border-radius: 10px;
+   
+}
+
+.anchor{
+    color:rgb(196, 241, 144);
+    font-size: 30px;
+}
